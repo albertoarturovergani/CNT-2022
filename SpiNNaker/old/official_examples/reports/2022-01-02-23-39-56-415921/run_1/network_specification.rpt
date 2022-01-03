@@ -1,0 +1,17 @@
+*** Vertices:
+Vertex Excitatory_Cells, size: 1200, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=100)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From Excitatory_Cells to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 1, From Excitatory_Cells to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex Inhibitory_Cells, size: 300, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=100)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From Inhibitory_Cells to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 3, From Inhibitory_Cells to Inhibitory_Cells, model: ProjectionApplicationEdge
+

@@ -1,0 +1,27 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Mon Jan  3 13:03:35 2022 for target machine '10.11.193.65'
+
+**** Vertex: 'Exc'
+Model: AbstractPopulationVertex
+Pop size: 800
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:509 (255 atoms) 
+  Slice 510:764 (255 atoms) 
+  Slice 765:799 (35 atoms) 
+
+**** Vertex: 'Inh'
+Model: AbstractPopulationVertex
+Pop size: 200
+Machine Vertices: 
+  Slice 0:199 (200 atoms) 
+
+**** Vertex: 'Inh1'
+Model: SpikeSourcePoissonVertex
+Pop size: 800
+Machine Vertices: 
+  Slice 0:499 (500 atoms) 
+  Slice 500:799 (300 atoms) 
+

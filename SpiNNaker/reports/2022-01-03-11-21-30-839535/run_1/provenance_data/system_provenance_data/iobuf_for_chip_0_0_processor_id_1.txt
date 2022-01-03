@@ -1,0 +1,10 @@
+Loading system router entries into router
+Saving existing router table
+Loading system (Fast Data In) routes
+Writing 48 router entries
+dropped packets 0
+Loading application router entries into router
+Loading application routes
+Writing 1023 router entries
+dropped packets 0
+

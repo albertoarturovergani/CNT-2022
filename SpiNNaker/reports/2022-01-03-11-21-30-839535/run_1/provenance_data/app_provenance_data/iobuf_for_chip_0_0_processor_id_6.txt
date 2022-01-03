@@ -1,0 +1,35 @@
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 563): Recording 4 regions, using output tag 0, size before trigger 4718848, time between triggers 50
+[INFO] (recording.c: 665): Recording channel 0 configured to use 165888 byte memory block starting at 0x6090dd8c
+[INFO] (recording.c: 665): Recording channel 1 configured to use 4718592 byte memory block starting at 0x618bbe6c
+[INFO] (recording.c: 665): Recording channel 2 configured to use 4718592 byte memory block starting at 0x61d646ac
+[INFO] (recording.c: 665): Recording channel 3 configured to use 4718592 byte memory block starting at 0x6225df2c
+[INFO] (population_table_binary_search_impl.c: 146): the stored synaptic matrix base address is located at: 0x60251108
+[INFO] (population_table_binary_search_impl.c: 148): the direct synaptic matrix base address is located at: 0x67800040
+[INFO] (population_table_binary_search_impl.c: 70): master_population
+
+[INFO] (population_table_binary_search_impl.c: 71): ------------------------------------------
+
+[INFO] (population_table_binary_search_impl.c: 83): index (0, 0), key: 0x0, mask: 0xffffff00, offset: 0x0, address: 0x60251108, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (1, 1), key: 0x100, mask: 0xffffff00, offset: 0x0, address: 0x60251108, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (2, 2), key: 0x400, mask: 0xfffffc00, offset: 0x0, address: 0x60251108, row_length: 2
+
+[INFO] (population_table_binary_search_impl.c: 83): index (3, 3), key: 0x800, mask: 0xfffffc00, offset: 0x4fb0, address: 0x602560b8, row_length: 1
+
+[INFO] (population_table_binary_search_impl.c: 83): index (4, 4), key: 0x1400, mask: 0xffffff00, offset: 0x0, address: 0x60251108, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (5, 5), key: 0x1500, mask: 0xffffff00, offset: 0x0, address: 0x60251108, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (6, 6), key: 0x1800, mask: 0xfffffc00, offset: 0x219f0, address: 0x60272af8, row_length: 1
+
+[INFO] (population_table_binary_search_impl.c: 83): index (7, 7), key: 0x2000, mask: 0xfffff000, offset: 0x8f70, address: 0x6025a078, row_length: 2
+
+[INFO] (population_table_binary_search_impl.c: 83): index (8, 8), key: 0x3000, mask: 0xfffff000, offset: 0x16aa0, address: 0x60267ba8, row_length: 1
+
+[INFO] (population_table_binary_search_impl.c: 94): ------------------------------------------
+
+[INFO] (profiler.c: 31): Reading profile setup from 0x602f5730
+[INFO] (profiler.c: 37): Initialising profiler with storage for 0 samples starting at 0x602f5734
+

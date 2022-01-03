@@ -1,0 +1,13 @@
+<provenance_data_items name="0_0_6_AbstractPopulationVertex_2_delayed:0:19">
+  <provenance_data_item name="Times_the_transmission_of_spikes_overran">0</provenance_data_item>
+  <provenance_data_item name="Times_the_callback_queue_was_overloaded">0</provenance_data_item>
+  <provenance_data_item name="Times_the_dma_queue_was_overloaded">0</provenance_data_item>
+  <provenance_data_item name="Times_the_timer_tic_over_ran">0</provenance_data_item>
+  <provenance_data_item name="max_number_of_times_timer_tic_over_ran">0</provenance_data_item>
+  <provenance_data_item name="Number_of_packets_received">10</provenance_data_item>
+  <provenance_data_item name="Number_of_packets_processed">10</provenance_data_item>
+  <provenance_data_item name="Number_of_packets_added_to_delay_slot">10</provenance_data_item>
+  <provenance_data_item name="Number_of_packets_sent">4</provenance_data_item>
+  <provenance_data_item name="Times_the_input_buffer_lost_packets">0</provenance_data_item>
+  <provenance_data_item name="Number_of_times_delayed_to_spread_traffic">44109862</provenance_data_item>
+</provenance_data_items>

@@ -1,0 +1,65 @@
+<provenance_data_items name="pacman">
+  <provenance_data_items name="machine_generation">
+    <provenance_data_item name="run_time_of_SpallocMaxMachineGenerator">0:00:03.172497</provenance_data_item>
+    <provenance_data_item name="run_time_of_PreAllocateResourcesForExtraMonitorSupport">0:00:08.465301</provenance_data_item>
+    <provenance_data_item name="run_time_of_PartitionAndPlacePartitioner">0:00:04.854196</provenance_data_item>
+    <provenance_data_item name="run_time_of_SpallocAllocator">0:00:05.047734</provenance_data_item>
+    <provenance_data_item name="run_time_of_MachineGenerator">0:00:09.635690</provenance_data_item>
+  </provenance_data_items>
+  <provenance_data_items name="mapping">
+    <provenance_data_item name="run_time_of_PartitionerReport">0:00:00.008846</provenance_data_item>
+    <provenance_data_item name="run_time_of_NetworkSpecificationReport">0:00:00.000297</provenance_data_item>
+    <provenance_data_item name="run_time_of_MallocBasedChipIDAllocator">0:00:00.025174</provenance_data_item>
+    <provenance_data_item name="run_time_of_InsertExtraMonitorVerticesToGraphs">0:00:00.029670</provenance_data_item>
+    <provenance_data_item name="run_time_of_BoardChipReport">0:00:00.010973</provenance_data_item>
+    <provenance_data_item name="run_time_of_GraphEdgeFilter">0:00:00.026370</provenance_data_item>
+    <provenance_data_item name="run_time_of_OneToOnePlacer">0:00:00.038586</provenance_data_item>
+    <provenance_data_item name="run_time_of_InsertEdgesToExtraMonitorFunctionality">0:00:00.051399</provenance_data_item>
+    <provenance_data_item name="run_time_of_DataInMulticastRoutingGenerator">0:00:00.009513</provenance_data_item>
+    <provenance_data_item name="run_time_of_FixedRouteRouter">0:00:00.009282</provenance_data_item>
+    <provenance_data_item name="run_time_of_PlacerReportWithApplicationGraph">0:00:00.064628</provenance_data_item>
+    <provenance_data_item name="run_time_of_NerRoute">0:00:00.026347</provenance_data_item>
+    <provenance_data_item name="run_time_of_BasicTagAllocator">0:00:00.042284</provenance_data_item>
+    <provenance_data_item name="run_time_of_TagReport">0:00:00.012779</provenance_data_item>
+    <provenance_data_item name="run_time_of_EdgeToNKeysMapper">0:00:00.024633</provenance_data_item>
+    <provenance_data_item name="run_time_of_ProcessPartitionConstraints">0:00:00.023061</provenance_data_item>
+    <provenance_data_item name="run_time_of_MallocBasedRoutingInfoAllocator">0:00:00.009475</provenance_data_item>
+    <provenance_data_item name="run_time_of_routingInfoReports">0:00:00.034117</provenance_data_item>
+    <provenance_data_item name="run_time_of_BasicRoutingTableGenerator">0:00:00.026008</provenance_data_item>
+    <provenance_data_item name="run_time_of_LocateExecutableStartType">0:00:00.031184</provenance_data_item>
+    <provenance_data_item name="run_time_of_BufferManagerCreator">0:00:00.032367</provenance_data_item>
+  </provenance_data_items>
+  <provenance_data_items name="data_generation">
+    <provenance_data_item name="run_time_of_SpynnakerDataSpecificationWriter">0:00:00.076931</provenance_data_item>
+  </provenance_data_items>
+  <provenance_data_items name="loading">
+    <provenance_data_item name="run_time_of_RoutingSetup">0:00:00.010681</provenance_data_item>
+    <provenance_data_item name="run_time_of_GraphBinaryGatherer">0:00:00.031265</provenance_data_item>
+    <provenance_data_item name="run_time_of_MundyOnChipRouterCompression">0:00:04.538746</provenance_data_item>
+    <provenance_data_item name="run_time_of_unCompressedRoutingTableReports">0:00:00.008988</provenance_data_item>
+    <provenance_data_item name="run_time_of_LoadFixedRoutes">0:00:00.043361</provenance_data_item>
+    <provenance_data_item name="run_time_of_HostExecuteSystemDataSpecification">0:00:00.161274</provenance_data_item>
+    <provenance_data_item name="run_time_of_LoadSystemExecutableImages">0:00:06.740054</provenance_data_item>
+    <provenance_data_item name="run_time_of_TagsLoader">0:00:00.018340</provenance_data_item>
+    <provenance_data_item name="run_time_of_WriteMemoryIOData">0:00:00.025355</provenance_data_item>
+    <provenance_data_item name="run_time_of_HostExecuteApplicationDataSpecification">0:00:02.161675</provenance_data_item>
+    <provenance_data_item name="run_time_of_SynapseExpander">0:00:03.758936</provenance_data_item>
+    <provenance_data_item name="run_time_of_FixedRouteFromMachineReport">0:00:00.067965</provenance_data_item>
+    <provenance_data_item name="run_time_of_LoadApplicationExecutableImages">0:00:06.778892</provenance_data_item>
+    <provenance_data_item name="run_time_of_RoutingTableFromMachineReport">0:00:00.011547</provenance_data_item>
+    <provenance_data_item name="run_time_of_compressedRoutingTableReports">0:00:00.011555</provenance_data_item>
+    <provenance_data_item name="run_time_of_comparisonOfRoutingTablesReport">0:00:00.008084</provenance_data_item>
+  </provenance_data_items>
+  <provenance_data_items name="Execution">
+    <provenance_data_item name="run_time_of_SdramUsageReportPerChip">0:00:00.055014</provenance_data_item>
+    <provenance_data_item name="run_time_of_ChipRuntimeUpdater">0:00:00.028410</provenance_data_item>
+    <provenance_data_item name="run_time_of_DatabaseInterface">0:00:00.050693</provenance_data_item>
+    <provenance_data_item name="run_time_of_NotificationProtocol">0:00:00.000746</provenance_data_item>
+    <provenance_data_item name="run_time_of_ApplicationRunner">0:00:01.189122</provenance_data_item>
+    <provenance_data_item name="run_time_of_BufferExtractor">0:00:00.160468</provenance_data_item>
+    <provenance_data_item name="run_time_of_GraphProvenanceGatherer">0:00:00.066978</provenance_data_item>
+    <provenance_data_item name="run_time_of_PlacementsProvenanceGatherer">0:00:00.022269</provenance_data_item>
+    <provenance_data_item name="run_time_of_RouterProvenanceGatherer">0:00:00.055251</provenance_data_item>
+    <provenance_data_item name="run_time_of_ProfileDataGatherer">0:00:00.023825</provenance_data_item>
+  </provenance_data_items>
+</provenance_data_items>

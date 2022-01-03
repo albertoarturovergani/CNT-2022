@@ -1,0 +1,53 @@
+*** Vertices:
+Vertex AbstractPopulationVertex_1, size: 80, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+        SameAtomsAsVertexConstraint(vertex=AbstractPopulationVertex_1_delayed)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From AbstractPopulationVertex_1 to AbstractPopulationVertex_1, model: ProjectionApplicationEdge
+        Edge: AbstractPopulationVertex_1_to_DelayExtension, From AbstractPopulationVertex_1 to AbstractPopulationVertex_1_delayed, model: DelayAfferentApplicationEdge
+        Edge: projection edge 3, From AbstractPopulationVertex_1 to AbstractPopulationVertex_2, model: ProjectionApplicationEdge
+
+Vertex AbstractPopulationVertex_2, size: 20, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+        SameAtomsAsVertexConstraint(vertex=AbstractPopulationVertex_2_delayed)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 4, From AbstractPopulationVertex_2 to AbstractPopulationVertex_2, model: ProjectionApplicationEdge
+        Edge: AbstractPopulationVertex_2_to_DelayExtension, From AbstractPopulationVertex_2 to AbstractPopulationVertex_2_delayed, model: DelayAfferentApplicationEdge
+        Edge: projection edge 5, From AbstractPopulationVertex_2 to AbstractPopulationVertex_1, model: ProjectionApplicationEdge
+
+Vertex SpikeSourcePoissonVertex_3, size: 80, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From SpikeSourcePoissonVertex_3 to AbstractPopulationVertex_1, model: ProjectionApplicationEdge
+
+Vertex SpikeSourcePoissonVertex_4, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 1, From SpikeSourcePoissonVertex_4 to AbstractPopulationVertex_2, model: ProjectionApplicationEdge
+
+Vertex AbstractPopulationVertex_1_delayed, size: 80, model: DelayExtensionVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=256)
+        SameAtomsAsVertexConstraint(vertex=AbstractPopulationVertex_1 with 80 atoms)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: AbstractPopulationVertex_1_delayed_to_AbstractPopulationVertex_1, From AbstractPopulationVertex_1_delayed to AbstractPopulationVertex_1, model: DelayedApplicationEdge
+        Edge: AbstractPopulationVertex_1_delayed_to_AbstractPopulationVertex_2, From AbstractPopulationVertex_1_delayed to AbstractPopulationVertex_2, model: DelayedApplicationEdge
+
+Vertex AbstractPopulationVertex_2_delayed, size: 20, model: DelayExtensionVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=256)
+        SameAtomsAsVertexConstraint(vertex=AbstractPopulationVertex_2 with 20 atoms)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: AbstractPopulationVertex_2_delayed_to_AbstractPopulationVertex_2, From AbstractPopulationVertex_2_delayed to AbstractPopulationVertex_2, model: DelayedApplicationEdge
+        Edge: AbstractPopulationVertex_2_delayed_to_AbstractPopulationVertex_1, From AbstractPopulationVertex_2_delayed to AbstractPopulationVertex_1, model: DelayedApplicationEdge
+

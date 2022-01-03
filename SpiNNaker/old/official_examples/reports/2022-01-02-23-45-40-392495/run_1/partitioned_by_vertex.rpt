@@ -1,0 +1,85 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Sun Jan  2 23:46:11 2022 for target machine '10.11.193.81'
+
+**** Vertex: 'E_pop'
+Model: AbstractPopulationVertex
+Pop size: 2400
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+  Slice 100:199 (100 atoms) 
+  Slice 200:299 (100 atoms) 
+  Slice 300:399 (100 atoms) 
+  Slice 400:499 (100 atoms) 
+  Slice 500:599 (100 atoms) 
+  Slice 600:699 (100 atoms) 
+  Slice 700:799 (100 atoms) 
+  Slice 800:899 (100 atoms) 
+  Slice 900:999 (100 atoms) 
+  Slice 1000:1099 (100 atoms) 
+  Slice 1100:1199 (100 atoms) 
+  Slice 1200:1299 (100 atoms) 
+  Slice 1300:1399 (100 atoms) 
+  Slice 1400:1499 (100 atoms) 
+  Slice 1500:1599 (100 atoms) 
+  Slice 1600:1699 (100 atoms) 
+  Slice 1700:1799 (100 atoms) 
+  Slice 1800:1899 (100 atoms) 
+  Slice 1900:1999 (100 atoms) 
+  Slice 2000:2099 (100 atoms) 
+  Slice 2100:2199 (100 atoms) 
+  Slice 2200:2299 (100 atoms) 
+  Slice 2300:2399 (100 atoms) 
+
+**** Vertex: 'I_pop'
+Model: AbstractPopulationVertex
+Pop size: 600
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+  Slice 100:199 (100 atoms) 
+  Slice 200:299 (100 atoms) 
+  Slice 300:399 (100 atoms) 
+  Slice 400:499 (100 atoms) 
+  Slice 500:599 (100 atoms) 
+
+**** Vertex: 'Poisson_pop_E'
+Model: SpikeSourcePoissonVertex
+Pop size: 2400
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+  Slice 100:199 (100 atoms) 
+  Slice 200:299 (100 atoms) 
+  Slice 300:399 (100 atoms) 
+  Slice 400:499 (100 atoms) 
+  Slice 500:599 (100 atoms) 
+  Slice 600:699 (100 atoms) 
+  Slice 700:799 (100 atoms) 
+  Slice 800:899 (100 atoms) 
+  Slice 900:999 (100 atoms) 
+  Slice 1000:1099 (100 atoms) 
+  Slice 1100:1199 (100 atoms) 
+  Slice 1200:1299 (100 atoms) 
+  Slice 1300:1399 (100 atoms) 
+  Slice 1400:1499 (100 atoms) 
+  Slice 1500:1599 (100 atoms) 
+  Slice 1600:1699 (100 atoms) 
+  Slice 1700:1799 (100 atoms) 
+  Slice 1800:1899 (100 atoms) 
+  Slice 1900:1999 (100 atoms) 
+  Slice 2000:2099 (100 atoms) 
+  Slice 2100:2199 (100 atoms) 
+  Slice 2200:2299 (100 atoms) 
+  Slice 2300:2399 (100 atoms) 
+
+**** Vertex: 'Poisson_pop_I'
+Model: SpikeSourcePoissonVertex
+Pop size: 600
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+  Slice 100:199 (100 atoms) 
+  Slice 200:299 (100 atoms) 
+  Slice 300:399 (100 atoms) 
+  Slice 400:499 (100 atoms) 
+  Slice 500:599 (100 atoms) 
+

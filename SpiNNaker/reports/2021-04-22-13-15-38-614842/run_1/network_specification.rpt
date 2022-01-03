@@ -1,0 +1,67 @@
+*** Vertices:
+Vertex cells, size: 20, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+
+Vertex SpikeSourceArrayVertex_1, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From SpikeSourceArrayVertex_1 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_2, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 1, From SpikeSourceArrayVertex_2 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_3, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From SpikeSourceArrayVertex_3 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_4, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 3, From SpikeSourceArrayVertex_4 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_5, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 4, From SpikeSourceArrayVertex_5 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_6, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 5, From SpikeSourceArrayVertex_6 to cells, model: ProjectionApplicationEdge
+
+Vertex SpikeSourceArrayVertex_7, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 6, From SpikeSourceArrayVertex_7 to cells, model: ProjectionApplicationEdge
+
+Vertex cells8, size: 20, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+
+Vertex SpikeSourceArrayVertex_9, size: 20, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 7, From SpikeSourceArrayVertex_9 to cells8, model: ProjectionApplicationEdge
+

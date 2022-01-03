@@ -1,0 +1,4 @@
+[INFO] (delay_extension.c: 187): initialise: started
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (delay_extension.c: 215): initialise: completed successfully
+

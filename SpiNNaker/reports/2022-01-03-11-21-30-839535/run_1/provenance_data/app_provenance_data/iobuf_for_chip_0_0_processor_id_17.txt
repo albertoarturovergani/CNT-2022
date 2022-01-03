@@ -1,0 +1,17 @@
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 563): Recording 4 regions, using output tag 0, size before trigger 4718848, time between triggers 50
+[INFO] (recording.c: 665): Recording channel 0 configured to use 165888 byte memory block starting at 0x626ddf4c
+[INFO] (recording.c: 665): Recording channel 1 configured to use 4718592 byte memory block starting at 0x631ccfcc
+[INFO] (recording.c: 665): Recording channel 2 configured to use 4718592 byte memory block starting at 0x653138cc
+[INFO] (recording.c: 665): Recording channel 3 configured to use 4718592 byte memory block starting at 0x65c1390c
+[INFO] (population_table_binary_search_impl.c: 146): the stored synaptic matrix base address is located at: 0x60464b28
+[INFO] (population_table_binary_search_impl.c: 148): the direct synaptic matrix base address is located at: 0x67800040
+[INFO] (population_table_binary_search_impl.c: 70): master_population
+
+[INFO] (population_table_binary_search_impl.c: 71): ------------------------------------------
+
+[INFO] (population_table_binary_search_impl.c: 94): ------------------------------------------
+
+[INFO] (profiler.c: 31): Reading profile setup from 0x60464b94
+[INFO] (profiler.c: 37): Initialising profiler with storage for 0 samples starting at 0x60464b98
+
