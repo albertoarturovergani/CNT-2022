@@ -1,5 +1,10 @@
 # Computational Neuroscience Tutorial 2022
-## NeuroSchool PhD Program
+## PhD class on Information Theory and Neural Modeling for Neural Engeneering
+Prof: Alberto Mazzoni
+Tutors: Nicolò Meneghetti, Alberto Vergani
+
+## PhD Program in Biorobotics 
+## SSSP (Scuola Superiore Sant'Anna, Pisa)
 
 Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
 
