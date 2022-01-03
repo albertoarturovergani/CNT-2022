@@ -1,4 +1,4 @@
-# Computational Neuroscience Tutorial 2021
+# Computational Neuroscience Tutorial 2022
 ## NeuroSchool PhD Program
 
 Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
@@ -10,10 +10,10 @@ Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker ne
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2021`
 1. Open the directory `SpiNNaker/` and run the [CNT notebook](SpiNNaker/CNT_notebook.ipynb)
 
-## Zoom link: 
- https://univ-amu-fr.zoom.us/j/94280459110?pwd=b25zQytlQ1dIK0x2OTU5OXQ3dzFEZz09
- 
-## contact: alberto.vergani@univ-amu.fr
+## Link: 
+TBD
+
+## contact: albertoarturo.vergani@santannapisa.it
 
 ## Content:
 
@@ -46,13 +46,6 @@ Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker ne
 - [1D testing cell models network](SpiNNaker/eg_1D_testing-cell-models-network.ipynb)
 - [1D testing STDP model network](SpiNNaker/eg_1D_testing-STDP-model-network.ipynb)
 
-
-### topics for an advanced class 
-
-- bio-realistic neural network 
-- large scale computation
-- model replicaton (i.e., reproduce results from paper)
-- parameters explorations
 
 ### knowledge assumptions: 
 
