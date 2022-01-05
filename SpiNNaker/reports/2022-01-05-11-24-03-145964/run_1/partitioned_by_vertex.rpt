@@ -1,0 +1,79 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Wed Jan  5 12:34:05 2022 for target machine '10.11.193.129'
+
+**** Vertex: 'exc'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:509 (255 atoms) 
+  Slice 510:764 (255 atoms) 
+  Slice 765:1019 (255 atoms) 
+  Slice 1020:1199 (180 atoms) 
+
+**** Vertex: 'exc1'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:509 (255 atoms) 
+  Slice 510:764 (255 atoms) 
+  Slice 765:1019 (255 atoms) 
+  Slice 1020:1199 (180 atoms) 
+
+**** Vertex: 'inh'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:299 (45 atoms) 
+
+**** Vertex: 'inh2'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:299 (45 atoms) 
+
+**** Vertex: 'inh3'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:299 (45 atoms) 
+
+**** Vertex: 'inh4'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:299 (45 atoms) 
+
+**** Vertex: 'exc5'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:509 (255 atoms) 
+  Slice 510:764 (255 atoms) 
+  Slice 765:1019 (255 atoms) 
+  Slice 1020:1199 (180 atoms) 
+
+**** Vertex: 'exc6'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:254 (255 atoms) 
+  Slice 255:509 (255 atoms) 
+  Slice 510:764 (255 atoms) 
+  Slice 765:1019 (255 atoms) 
+  Slice 1020:1199 (180 atoms) 
+
+**** Vertex: 'expoisson'
+Model: SpikeSourcePoissonVertex
+Pop size: 20
+Machine Vertices: 
+  Slice 0:19 (20 atoms) 
+

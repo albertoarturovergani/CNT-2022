@@ -1,0 +1,61 @@
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (recording.c: 563): Recording 4 regions, using output tag 0, size before trigger 6532352, time between triggers 50
+[INFO] (recording.c: 665): Recording channel 0 configured to use 229644 byte memory block starting at 0x646dc528
+[INFO] (recording.c: 665): Recording channel 1 configured to use 6532096 byte memory block starting at 0x65389e94
+[INFO] (recording.c: 665): Recording channel 2 configured to use 6532096 byte memory block starting at 0x66aa1bb0
+[INFO] (recording.c: 665): Recording channel 3 configured to use 6532096 byte memory block starting at 0x670dc7d0
+[INFO] (population_table_binary_search_impl.c: 146): the stored synaptic matrix base address is located at: 0x60319b70
+[INFO] (population_table_binary_search_impl.c: 148): the direct synaptic matrix base address is located at: 0x67800040
+[INFO] (population_table_binary_search_impl.c: 70): master_population
+
+[INFO] (population_table_binary_search_impl.c: 71): ------------------------------------------
+
+[INFO] (population_table_binary_search_impl.c: 83): index (0, 0), key: 0x0, mask: 0xffffff00, offset: 0x0, address: 0x60319b70, row_length: 10
+
+[INFO] (population_table_binary_search_impl.c: 83): index (1, 1), key: 0x100, mask: 0xffffff00, offset: 0x166a0, address: 0x60330210, row_length: 13
+
+[INFO] (population_table_binary_search_impl.c: 83): index (2, 2), key: 0x200, mask: 0xffffff00, offset: 0x269a0, address: 0x60340510, row_length: 8
+
+[INFO] (population_table_binary_search_impl.c: 83): index (3, 3), key: 0x300, mask: 0xffffff00, offset: 0x0, address: 0x60319b70, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (4, 4), key: 0x400, mask: 0xffffff00, offset: 0x0, address: 0x60319b70, row_length: 0
+
+[INFO] (population_table_binary_search_impl.c: 83): index (5, 5), key: 0x500, mask: 0xffffff00, offset: 0x66270, address: 0x6037fde0, row_length: 10
+
+[INFO] (population_table_binary_search_impl.c: 83): index (6, 6), key: 0x600, mask: 0xffffffc0, offset: 0x7c910, address: 0x60396480, row_length: 9
+
+[INFO] (population_table_binary_search_impl.c: 83): index (7, 7), key: 0x640, mask: 0xffffffe0, offset: 0x7f400, address: 0x60398f70, row_length: 16
+
+[INFO] (population_table_binary_search_impl.c: 83): index (8, 8), key: 0x800, mask: 0xfffff800, offset: 0x33d0, address: 0x6031cf40, row_length: 8
+
+[INFO] (population_table_binary_search_impl.c: 83): index (9, 9), key: 0x1000, mask: 0xfffff800, offset: 0x1a660, address: 0x603341d0, row_length: 4
+
+[INFO] (population_table_binary_search_impl.c: 83): index (10, 10), key: 0x1800, mask: 0xfffff800, offset: 0x29580, address: 0x603430f0, row_length: 11
+
+[INFO] (population_table_binary_search_impl.c: 83): index (11, 11), key: 0x2000, mask: 0xfffff800, offset: 0x41c00, address: 0x6035b770, row_length: 8
+
+[INFO] (population_table_binary_search_impl.c: 83): index (12, 12), key: 0x2800, mask: 0xfffff800, offset: 0x54ed0, address: 0x6036ea40, row_length: 11
+
+[INFO] (population_table_binary_search_impl.c: 83): index (13, 13), key: 0x3000, mask: 0xfffff800, offset: 0x69640, address: 0x603831b0, row_length: 8
+
+[INFO] (population_table_binary_search_impl.c: 83): index (14, 14), key: 0x3800, mask: 0xfffffe00, offset: 0x7d180, address: 0x60396cf0, row_length: 4
+
+[INFO] (population_table_binary_search_impl.c: 94): ------------------------------------------
+
+[INFO] (profiler.c: 31): Reading profile setup from 0x603fef60
+[INFO] (profiler.c: 37): Initialising profiler with storage for 0 samples starting at 0x603fef64
+[INFO] (simulation.c: 159): Setting the runtime of this model to 1000 starting at 0
+[INFO] (simulation.c: 161): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 175): Resuming
+[INFO] (simulation.c: 77): Starting basic provenance gathering
+[INFO] (simulation.c: 80): running other provenance gathering
+[INFO] (recording.c: 507): 	Finalising channel 0 - state info stored in SDRAM
+[INFO] (recording.c: 512): closed channel 0.
+[INFO] (recording.c: 507): 	Finalising channel 1 - state info stored in SDRAM
+[INFO] (recording.c: 512): closed channel 1.
+[INFO] (recording.c: 507): 	Finalising channel 2 - state info stored in SDRAM
+[INFO] (recording.c: 512): closed channel 2.
+[INFO] (recording.c: 507): 	Finalising channel 3 - state info stored in SDRAM
+[INFO] (recording.c: 512): closed channel 3.
+[INFO] (profiler.c: 51): Profiler wrote 4 bytes to 0x603fef60
+

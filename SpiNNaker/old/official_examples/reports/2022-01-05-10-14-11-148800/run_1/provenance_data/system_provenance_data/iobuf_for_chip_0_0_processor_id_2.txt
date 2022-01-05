@@ -1,0 +1,38 @@
+[INFO] (data_speed_up_packet_gatherer.c: 709): Configuring packet gatherer
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (data_speed_up_packet_gatherer.c: 652): Initialising data out
+[INFO] (data_speed_up_packet_gatherer.c: 671): Initialising data in
+[INFO] (data_speed_up_packet_gatherer.c: 693): receive timeout is 33000us
+[INFO] (data_speed_up_packet_gatherer.c: 715): Starting
+[INFO] (data_speed_up_packet_gatherer.c: 462): Changed stream target chip to 0,0
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 69 packets to 0x602435d8
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1758 packets to 0x60247f8c
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 69 packets to 0x603151bc
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1974 packets to 0x60319b70
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 69 packets to 0x603ff058
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 2089 packets to 0x60403a0c
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 69 packets to 0x604d0c3c
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1972 packets to 0x604d55f0
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 49 packets to 0x605adc98
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1764 packets to 0x605b1130
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 69 packets to 0x606577f0
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1758 packets to 0x6065c1a4
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 12 packets to 0x6072937c
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 1215 packets to 0x6072a228
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+[INFO] (data_speed_up_packet_gatherer.c: 465): Writing 3 packets to 0x6079cdbc
+[INFO] (data_speed_up_packet_gatherer.c: 396): Sent end flag
+

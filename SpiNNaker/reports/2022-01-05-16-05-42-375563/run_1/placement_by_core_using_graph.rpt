@@ -1,0 +1,329 @@
+        Placement Information by Core
+        =============================
+
+Generated: Wed Jan  5 16:06:16 2022 for target machine '10.11.193.129'
+
+**** Chip: (0, 0)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+  Processor 2: Vertex: 'multicast speed up application vertex for 0, 0', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: DataSpeedUpPacketGather
+
+  Processor 3: Vertex: 'exc', pop size: 1200
+              Slice on this core: 0:254 (255 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 4: Vertex: 'exc', pop size: 1200
+              Slice on this core: 255:509 (255 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 5: Vertex: 'exc', pop size: 1200
+              Slice on this core: 510:764 (255 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 6: Vertex: 'exc', pop size: 1200
+              Slice on this core: 765:1019 (255 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 7: Vertex: 'exc', pop size: 1200
+              Slice on this core: 1020:1199 (180 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 8: Vertex: 'inh', pop size: 300
+              Slice on this core: 0:254 (255 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 9: Vertex: 'inh', pop size: 300
+              Slice on this core: 255:299 (45 atoms)
+              Model: AbstractPopulationVertex
+
+  Processor 10: Vertex: 'expoisson', pop size: 20
+              Slice on this core: 0:19 (20 atoms)
+              Model: SpikeSourcePoissonVertex
+
+**** Chip: (0, 1)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport1', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (0, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport2', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (0, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport3', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (1, 0)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport4', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (1, 1)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport5', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (1, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport6', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (1, 3)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport7', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (1, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport8', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 0)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport9', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 1)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport10', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport11', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport12', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport13', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (2, 5)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport14', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 0)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport15', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 1)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport16', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport17', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 3)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport18', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport19', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 5)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport20', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (3, 6)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport21', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 0)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport22', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 1)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport23', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport24', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport25', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport26', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 5)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport27', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 6)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport28', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (4, 7)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport29', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 1)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport30', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 2)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport31', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport32', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 4)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport33', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 5)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport34', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 6)
+Application cores: 17
+  Processor 1: Vertex: 'ExtraMonitorSupport35', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (5, 7)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport36', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 2)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport37', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport38', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport39', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 5)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport40', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 6)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport41', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (6, 7)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport42', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (7, 3)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport43', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (7, 4)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport44', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (7, 5)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport45', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (7, 6)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport46', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+
+**** Chip: (7, 7)
+Application cores: 18
+  Processor 1: Vertex: 'ExtraMonitorSupport47', pop size: 1
+              Slice on this core: 0:0 (1 atoms)
+              Model: ExtraMonitorSupport
+

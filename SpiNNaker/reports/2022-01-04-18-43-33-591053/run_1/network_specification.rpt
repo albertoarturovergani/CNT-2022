@@ -1,0 +1,29 @@
+*** Vertices:
+Vertex Exc, size: 1200, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+
+Vertex exc, size: 1200, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From exc to exc, model: ProjectionApplicationEdge
+        Edge: projection edge 1, From exc to inh, model: ProjectionApplicationEdge
+
+Vertex inh, size: 300, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From inh to exc, model: ProjectionApplicationEdge
+        Edge: projection edge 3, From inh to inh, model: ProjectionApplicationEdge
+
+Vertex inh1, size: 1200, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: thalamus-exc connections, From inh1 to exc, model: ProjectionApplicationEdge
+

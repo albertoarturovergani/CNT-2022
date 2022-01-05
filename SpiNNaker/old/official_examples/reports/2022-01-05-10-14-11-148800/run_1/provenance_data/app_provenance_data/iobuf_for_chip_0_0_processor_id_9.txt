@@ -1,0 +1,9 @@
+[INFO] (delay_extension.c: 187): initialise: started
+[INFO] (data_specification.c: 78): magic = ad130ad6, version = 1.0
+[INFO] (delay_extension.c: 215): initialise: completed successfully
+[INFO] (simulation.c: 159): Setting the runtime of this model to 1000 starting at 0
+[INFO] (simulation.c: 161): Setting the flag of infinite run for this model to 0
+[INFO] (simulation.c: 175): Resuming
+[INFO] (simulation.c: 77): Starting basic provenance gathering
+[INFO] (simulation.c: 80): running other provenance gathering
+
