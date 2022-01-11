@@ -1,0 +1,322 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Tue Jan 11 17:08:51 2022 for target machine '10.11.194.17'
+
+**** Vertex: 'Excitatory_Cells'
+Model: AbstractPopulationVertex
+Pop size: 1200
+Machine Vertices: 
+  Slice 0:254 (255 atoms) on core (0, 0, 3) 
+  Slice 255:509 (255 atoms) on core (0, 0, 4) 
+  Slice 510:764 (255 atoms) on core (0, 0, 5) 
+  Slice 765:1019 (255 atoms) on core (0, 0, 6) 
+  Slice 1020:1199 (180 atoms) on core (0, 0, 7) 
+
+**** Vertex: 'Inhibitory_Cells'
+Model: AbstractPopulationVertex
+Pop size: 300
+Machine Vertices: 
+  Slice 0:254 (255 atoms) on core (0, 0, 8) 
+  Slice 255:299 (45 atoms) on core (0, 0, 9) 
+
+**** Vertex: 'expoisson'
+Model: SpikeSourcePoissonVertex
+Pop size: 20
+Machine Vertices: 
+  Slice 0:19 (20 atoms) on core (0, 0, 10) 
+
+**** Vertex: 'ExtraMonitorSupport'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 0, 1) 
+
+**** Vertex: 'ExtraMonitorSupport1'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport2'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport3'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport4'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (1, 0, 1) 
+
+**** Vertex: 'ExtraMonitorSupport5'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (1, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport6'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (1, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport7'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (1, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport8'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (1, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport9'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 0, 1) 
+
+**** Vertex: 'ExtraMonitorSupport10'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport11'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport12'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport13'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport14'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (2, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport15'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 0, 1) 
+
+**** Vertex: 'ExtraMonitorSupport16'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport17'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport18'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport19'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport20'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport21'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (3, 6, 1) 
+
+**** Vertex: 'ExtraMonitorSupport22'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 0, 1) 
+
+**** Vertex: 'ExtraMonitorSupport23'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport24'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport25'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport26'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport27'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport28'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 6, 1) 
+
+**** Vertex: 'ExtraMonitorSupport29'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (4, 7, 1) 
+
+**** Vertex: 'ExtraMonitorSupport30'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 1, 1) 
+
+**** Vertex: 'ExtraMonitorSupport31'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport32'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport33'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport34'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport35'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 6, 1) 
+
+**** Vertex: 'ExtraMonitorSupport36'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (5, 7, 1) 
+
+**** Vertex: 'ExtraMonitorSupport37'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 2, 1) 
+
+**** Vertex: 'ExtraMonitorSupport38'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport39'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport40'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport41'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 6, 1) 
+
+**** Vertex: 'ExtraMonitorSupport42'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (6, 7, 1) 
+
+**** Vertex: 'ExtraMonitorSupport43'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (7, 3, 1) 
+
+**** Vertex: 'ExtraMonitorSupport44'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (7, 4, 1) 
+
+**** Vertex: 'ExtraMonitorSupport45'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (7, 5, 1) 
+
+**** Vertex: 'ExtraMonitorSupport46'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (7, 6, 1) 
+
+**** Vertex: 'ExtraMonitorSupport47'
+Model: ExtraMonitorSupport
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (7, 7, 1) 
+
+**** Vertex: 'multicast speed up application vertex for 0, 0'
+Model: DataSpeedUpPacketGather
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) on core (0, 0, 2) 
+
