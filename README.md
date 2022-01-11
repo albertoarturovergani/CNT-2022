@@ -4,8 +4,7 @@ Prof: Alberto Mazzoni (alberto.mazzoni@santannapisa.it)
 
 Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannapisa.it)
 
-## PhD Program in Biorobotics 
-## SSSP (Scuola Superiore Sant'Anna, Pisa)
+## PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
 
 Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
 
