@@ -1,4 +1,5 @@
 # Computational Neuroscience Tutorial 2022
+## PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
 ## PhD class on Information Theory and Neural Modeling for Neural Engineering
 Prof: Alberto Mazzoni (alberto.mazzoni@santannapisa.it)
 
@@ -6,18 +7,16 @@ Tutor for single neuron modeling: Nicolò Meneghetti (nicolo.meneghetti@santanna
 
 Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannapisa.it)
 
-## PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
+## Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
 
-Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
-
-## Instructions to use the material:
+### Instructions to use the material:
 
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2022`
 1. Open the directory `SpiNNaker/` and run the [CNT notebook](CNT_notebook.ipynb)
 
-## Content:
+### Content:
 
 ### overview for the design of Spiking Neural Networks (SNNs)
 
