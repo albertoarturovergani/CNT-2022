@@ -1,8 +1,8 @@
 # CTN-2022
 ./SpiNNaker/old/
-*pkl
-./application_generated_data_files/
-./reports/
+./SpiNNaker/*pkl
+./SpiNNaker/application_generated_data_files/
+./SpiNNaker/reports/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
