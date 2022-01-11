@@ -1,6 +1,8 @@
 # Computational Neuroscience Tutorial 2022
-## PhD class on Information Theory and Neural Modeling for Neural Engeneering
+## PhD class on Information Theory and Neural Modeling for Neural Engineering
 Prof: Alberto Mazzoni (alberto.mazzoni@santannapisa.it)
+
+Tutor for single neuron modeling: Nicolò Meneghetti (nicolo.meneghetti@santannapisa.it)
 
 Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannapisa.it)
 
