@@ -1,0 +1,70 @@
+*** Vertices:
+Vertex Excitatory_Cells, size: 1200, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 0, From Excitatory_Cells to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 1, From Excitatory_Cells to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex Inhibitory_Cells, size: 300, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 2, From Inhibitory_Cells to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 3, From Inhibitory_Cells to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex expoisson, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+
+Vertex expoisson1, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 4, From expoisson1 to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 5, From expoisson1 to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex expoisson2, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 6, From expoisson2 to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 7, From expoisson2 to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex expoisson3, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 8, From expoisson3 to Excitatory_Cells, model: ProjectionApplicationEdge
+        Edge: projection edge 9, From expoisson3 to Inhibitory_Cells, model: ProjectionApplicationEdge
+
+Vertex Excitatory_Cells4, size: 1200, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=50)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 10, From Excitatory_Cells4 to Excitatory_Cells4, model: ProjectionApplicationEdge
+        Edge: projection edge 11, From Excitatory_Cells4 to Inhibitory_Cells5, model: ProjectionApplicationEdge
+
+Vertex Inhibitory_Cells5, size: 300, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=50)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 12, From Inhibitory_Cells5 to Excitatory_Cells4, model: ProjectionApplicationEdge
+        Edge: projection edge 13, From Inhibitory_Cells5 to Inhibitory_Cells5, model: ProjectionApplicationEdge
+
+Vertex expoisson6, size: 20, model: SpikeSourcePoissonVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=500)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: projection edge 14, From expoisson6 to Excitatory_Cells4, model: ProjectionApplicationEdge
+        Edge: projection edge 15, From expoisson6 to Inhibitory_Cells5, model: ProjectionApplicationEdge
+
