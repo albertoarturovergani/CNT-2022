@@ -18,7 +18,7 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 
 ### Content:
 
-### overview for the design of Spiking Neural Networks (SNNs)
+### Overview for the design of Spiking Neural Networks (SNNs)
 
 1. neurons
     - cell types
@@ -33,11 +33,11 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
     - save and load outputs
     - visualization tools
 
-### main notebook
+### Main notebook
 
 - [CNT notebook](CNT_notebook.ipynb)
 
-### network examples
+### Network examples
 
 - [1D entry network](eg_1D_entry-network.ipynb)
 - [1D decaying network](eg_1D_decaying-network.ipynb)
@@ -48,13 +48,13 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 - [1D testing STDP model network](eg_1D_testing-STDP-model-network.ipynb)
 - [1D VA_balance network](eg_1D_balance-network.ipynb)
 
-### knowledge assumptions: 
+### Knowledge assumptions: 
 
 - basis of spiking neural network theory (https://neuronaldynamics.epfl.ch/online/index.html) or (https://neuromatch.io/academy/)
 - familiarity with physical quantities related to electric circuits (e.g., voltages, conductances, currents, etc)
 - basic python coding (numpy, work with dictionaries, some matplotlib tools, etc)
 
-### expected take-home-points: 
+### Expected take-home-points: 
 
 - import the simulator
 - setup the simulator
