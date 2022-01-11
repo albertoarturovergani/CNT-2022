@@ -1,5 +1,0 @@
-[INFO] (synapse_expander.c: 187): Starting To Build Connectors
-[INFO] (synapse_expander.c: 195): 	Reading SDRAM at 0x602dcb4c, writing to matrix at 0x602c5e18
-[INFO] (synapse_expander.c: 161): Generating 31 edges for 50 atoms starting at 50
-[INFO] (synapse_expander.c: 204): Finished On Machine Connectors!
-

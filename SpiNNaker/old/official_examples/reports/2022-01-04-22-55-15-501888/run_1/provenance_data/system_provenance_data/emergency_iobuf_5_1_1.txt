@@ -1,5 +1,0 @@
-Loading system router entries into router
-Saving existing router table
-Loading system (Fast Data In) routes
-Writing 2 router entries
-

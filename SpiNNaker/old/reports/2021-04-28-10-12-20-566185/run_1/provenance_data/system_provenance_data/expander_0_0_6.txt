@@ -1,5 +1,0 @@
-[INFO] (delay_expander.c: 182): Starting To Build Delays
-[INFO] (delay_expander.c: 191): 	Reading SDRAM delay params at 0x6025407c, expander params at 0x602540d0
-[INFO] (delay_expander.c: 164): Generating 1 delay edges for 20 atoms starting at 0
-[INFO] (delay_expander.c: 200): Finished On Machine Delays!
-
