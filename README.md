@@ -1,23 +1,24 @@
 # Computational Neuroscience Tutorial 2022
-## PhD class on Information Theory and Neural Modeling for Neural Engeneering
+## PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
+## PhD class on Information Theory and Neural Modeling for Neural Engineering
 Prof: Alberto Mazzoni (alberto.mazzoni@santannapisa.it)
+
+Tutor for single neuron modeling: Nicolò Meneghetti (nicolo.meneghetti@santannapisa.it)
 
 Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannapisa.it)
 
-## PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
+## Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
 
-Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
-
-## Instructions to use the material:
+### Instructions to use the material:
 
 1. make the EBRAINS credentials to access the SpiNNaker server (https://spinn-20.cs.man.ac.uk/hub/login)
 1. login on the Jupyter Lab interface
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2022`
 1. Open the directory `SpiNNaker/` and run the [CNT notebook](CNT_notebook.ipynb)
 
-## Content:
+### Content:
 
-### overview for the design of Spiking Neural Networks (SNNs)
+### Overview for the design of Spiking Neural Networks (SNNs)
 
 1. neurons
     - cell types
@@ -32,11 +33,11 @@ Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker ne
     - save and load outputs
     - visualization tools
 
-### main notebook
+### Main notebook
 
 - [CNT notebook](CNT_notebook.ipynb)
 
-### network examples
+### Network examples
 
 - [1D entry network](eg_1D_entry-network.ipynb)
 - [1D decaying network](eg_1D_decaying-network.ipynb)
@@ -47,13 +48,13 @@ Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker ne
 - [1D testing STDP model network](eg_1D_testing-STDP-model-network.ipynb)
 - [1D VA_balance network](eg_1D_balance-network.ipynb)
 
-### knowledge assumptions: 
+### Knowledge assumptions: 
 
 - basis of spiking neural network theory (https://neuronaldynamics.epfl.ch/online/index.html) or (https://neuromatch.io/academy/)
 - familiarity with physical quantities related to electric circuits (e.g., voltages, conductances, currents, etc)
 - basic python coding (numpy, work with dictionaries, some matplotlib tools, etc)
 
-### expected take-home-points: 
+### Expected take-home-points: 
 
 - import the simulator
 - setup the simulator
