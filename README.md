@@ -1,7 +1,8 @@
 # Computational Neuroscience Tutorial 2022
 ## PhD class on Information Theory and Neural Modeling for Neural Engeneering
-Prof: Alberto Mazzoni
-Tutors: Nicolò Meneghetti, Alberto Vergani
+Prof: Alberto Mazzoni (alberto.mazzoni@santannapisa.it)
+
+Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannapisa.it)
 
 ## PhD Program in Biorobotics 
 ## SSSP (Scuola Superiore Sant'Anna, Pisa)
@@ -14,11 +15,6 @@ Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker ne
 1. login on the Jupyter Lab interface
 1. clone this repository `git clone https://github.com/albertoarturovergani/CNT-2021`
 1. Open the directory `SpiNNaker/` and run the [CNT notebook](SpiNNaker/CNT_notebook.ipynb)
-
-## Link: 
-TBD
-
-## contact: albertoarturo.vergani@santannapisa.it
 
 ## Content:
 
@@ -39,18 +35,18 @@ TBD
 
 ### main notebook
 
-- [CNT notebook](SpiNNaker/CNT_notebook.ipynb)
+- [CNT notebook](CNT_notebook.ipynb)
 
 ### network examples
 
-- [1D entry network](SpiNNaker/eg_1D_entry-network.ipynb)
-- [1D decaying network](SpiNNaker/eg_1D_decaying-network.ipynb)
-- [1D persistent network](SpiNNaker/eg_1D_persistent-network.ipynb)
-- [1D diverging network](SpiNNaker/eg_1D_diverging-network.ipynb)
-- [1D small-world network](SpiNNaker/eg_1D_small-world-network.ipynb)
-- [1D testing cell models network](SpiNNaker/eg_1D_testing-cell-models-network.ipynb)
-- [1D testing STDP model network](SpiNNaker/eg_1D_testing-STDP-model-network.ipynb)
-
+- [1D entry network](eg_1D_entry-network.ipynb)
+- [1D decaying network](eg_1D_decaying-network.ipynb)
+- [1D persistent network](eg_1D_persistent-network.ipynb)
+- [1D diverging network](eg_1D_diverging-network.ipynb)
+- [1D small-world network](eg_1D_small-world-network.ipynb)
+- [1D testing cell models network](eg_1D_testing-cell-models-network.ipynb)
+- [1D testing STDP model network](eg_1D_testing-STDP-model-network.ipynb)
+- [1D VA_balance network](eg_1D_balance-network.ipynb)
 
 ### knowledge assumptions: 
 
