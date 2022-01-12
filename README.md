@@ -37,16 +37,16 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 
 - [CNT notebook](CNT_notebook.ipynb)
 
-### Network examples
+### Network examples 
 
-- [1D entry network](eg_1D_entry-network.ipynb)
-- [1D decaying network](eg_1D_decaying-network.ipynb)
-- [1D persistent network](eg_1D_persistent-network.ipynb)
-- [1D diverging network](eg_1D_diverging-network.ipynb)
-- [1D small-world network](eg_1D_small-world-network.ipynb)
-- [1D testing cell models network](eg_1D_testing-cell-models-network.ipynb)
-- [1D testing STDP model network](eg_1D_testing-STDP-model-network.ipynb)
-- [1D VA_balance network](eg_1D_balance-network.ipynb)
+- [small network](eg_small-network.ipynb)
+- [decaying network](eg_decaying-network.ipynb)
+- [persistent network](eg_persistent-network.ipynb)
+- [diverging network](eg_diverging-network.ipynb)
+- [small-world network](eg_small-world-network.ipynb)
+- [testing cell models network](eg_testing-cell-models-network.ipynb)
+- [testing STDP model network](g_testing-STDP-model-network.ipynb)
+- [VA_balance network](eg_balance-network.ipynb)
 
 ### Knowledge assumptions: 
 
@@ -69,7 +69,6 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 - recover the results
 - postprocessing (visualization, statistics, etc)
 - close the simulations
-
 
 ## Links
 - [PyNN](http://neuralensemble.org/docs/PyNN/index.html)
