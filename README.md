@@ -35,18 +35,18 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 
 ### Main notebook
 
-- [CNT notebook](CNT_notebook.ipynb)
+- [CNT notebook](SpiNNaker/CNT_notebook.ipynb)
 
 ### Network examples 
 
-- [small network](eg_small-network.ipynb)
-- [decaying network](eg_decaying-network.ipynb)
-- [persistent network](eg_persistent-network.ipynb)
-- [diverging network](eg_diverging-network.ipynb)
-- [small-world network](eg_small-world-network.ipynb)
-- [testing cell models network](eg_testing-cell-models-network.ipynb)
-- [testing STDP model network](g_testing-STDP-model-network.ipynb)
-- [VA_balance network](eg_balance-network.ipynb)
+- [small network](SpiNNaker/eg_small-network.ipynb)
+- [decaying network](SpiNNaker/eg_decaying-network.ipynb)
+- [persistent network](SpiNNaker/eg_persistent-network.ipynb)
+- [diverging network](SpiNNaker/eg_diverging-network.ipynb)
+- [small-world network](SpiNNaker/eg_small-world-network.ipynb)
+- [testing cell models network](SpiNNaker/eg_testing-cell-models-network.ipynb)
+- [testing STDP model network](SpiNNaker/eg_testing-STDP-model-network.ipynb)
+- [VA_balance network](SpiNNakereg_balance-network.ipynb)
 
 ### Knowledge assumptions: 
 
