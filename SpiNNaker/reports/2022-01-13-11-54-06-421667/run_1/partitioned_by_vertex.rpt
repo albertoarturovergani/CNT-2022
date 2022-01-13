@@ -1,0 +1,41 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Thu Jan 13 11:54:58 2022 for target machine '10.11.193.1'
+
+**** Vertex: 'network'
+Model: AbstractPopulationVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'network1'
+Model: AbstractPopulationVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_2'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_3'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_4'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_5'
+Model: SpikeSourceArrayVertex
+Pop size: 1
+Machine Vertices: 
+  Slice 0:0 (1 atoms) 
+

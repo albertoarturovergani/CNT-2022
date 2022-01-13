@@ -1,0 +1,13 @@
+*** Vertices:
+Vertex network, size: 100, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+
+Vertex Thalamus, size: 100, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: thalamus-network connections, From Thalamus to network, model: ProjectionApplicationEdge
+

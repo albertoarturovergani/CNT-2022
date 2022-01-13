@@ -1,0 +1,17 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Thu Jan 13 13:17:34 2022 for target machine '10.11.193.145'
+
+**** Vertex: 'network'
+Model: AbstractPopulationVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
+**** Vertex: 'Thalamus'
+Model: SpikeSourceArrayVertex
+Pop size: 100
+Machine Vertices: 
+  Slice 0:99 (100 atoms) 
+
