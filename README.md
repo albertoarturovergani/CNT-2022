@@ -39,7 +39,7 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 
 ### Network examples 
 
-- [small network](SpiNNaker/eg_entry-network.ipynb)
+- [entry network](SpiNNaker/eg_entry-network.ipynb)
 - [decaying network](SpiNNaker/eg_decaying-network.ipynb)
 - [persistent network](SpiNNaker/eg_persistent-network.ipynb)
 - [diverging network](SpiNNaker/eg_diverging-network.ipynb)
