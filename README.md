@@ -46,7 +46,7 @@ Tutor for large scale modeling: Alberto Vergani (albertoarturo.vergani@santannap
 - [small-world network](SpiNNaker/eg_small-world-network.ipynb)
 - [testing cell models network](SpiNNaker/eg_testing-cell-models-network.ipynb)
 - [testing STDP model network](SpiNNaker/eg_testing-STDP-model-network.ipynb)
-- [VA_balance network](SpiNNakereg_balance-network.ipynb)
+- [VA_balance network](SpiNNaker/eg_balance-network.ipynb)
 
 ### Knowledge assumptions: 
 
