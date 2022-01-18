@@ -1,0 +1,17 @@
+        Placement Information by Vertex
+        ===============================
+
+Generated: Tue Jan 18 19:03:06 2022 for target machine '10.11.193.65'
+
+**** Vertex: 'cells'
+Model: AbstractPopulationVertex
+Pop size: 20
+Machine Vertices: 
+  Slice 0:19 (20 atoms) 
+
+**** Vertex: 'SpikeSourceArrayVertex_1'
+Model: SpikeSourceArrayVertex
+Pop size: 20
+Machine Vertices: 
+  Slice 0:19 (20 atoms) 
+

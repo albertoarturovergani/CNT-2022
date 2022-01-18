@@ -1,0 +1,34 @@
+*** Vertices:
+Vertex Exc, size: 100, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: exc-exc connections, From Exc to Exc, model: ProjectionApplicationEdge
+        Edge: exc-inh connections, From Exc to Inh, model: ProjectionApplicationEdge
+
+Vertex Inh, size: 100, model: AbstractPopulationVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=255)
+        SameAtomsAsVertexConstraint(vertex=Inh_delayed)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: inh-exc connections, From Inh to Exc, model: ProjectionApplicationEdge
+        Edge: Inh_to_DelayExtension, From Inh to Inh_delayed, model: DelayAfferentApplicationEdge
+        Edge: inh-inh connections, From Inh to Inh, model: ProjectionApplicationEdge
+
+Vertex Inh_delayed, size: 100, model: DelayExtensionVertex
+    Constraints:
+        SameAtomsAsVertexConstraint(vertex=Inh with 100 atoms)
+        MaxVertexAtomsConstraint(size=256)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: Inh_delayed_to_Exc, From Inh_delayed to Exc, model: DelayedApplicationEdge
+
+Vertex Thalamus, size: 100, model: SpikeSourceArrayVertex
+    Constraints:
+        MaxVertexAtomsConstraint(size=9223372036854775807)
+    Outgoing Edge Partitions:
+    Partition SPIKE:
+        Edge: thalamus-exc connections, From Thalamus to Exc, model: ProjectionApplicationEdge
+
