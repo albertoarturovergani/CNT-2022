@@ -1,7 +1,7 @@
 # Computational Neuroscience Tutorial 2022
 This tutorial has been designed for the following classes:
-- 2021/2022 PhD class on Information Theory and Neural Modeling for Neural Engineering (Prof: Alberto Mazzoni), PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
 - 2021/2022 Master class on Biorobotics and Complex Systems (Prof: Alberto Mazzoni), Physics Degree, University of Pisa, Italy
+- 2021/2022 PhD class on Information Theory and Neural Modeling for Neural Engineering (Prof: Alberto Mazzoni), PhD Program in Biorobotics, Scuola Superiore Sant'Anna, Pisa
 - 2020/2021 PhD class on Large Scale Network Simulations, NeuroSchool PhD Program, INT, Marseille, France
 
 ## Introduction on Spiking Neural Networks (SNNs) by using PyNN on the SpiNNaker neuromorphic system.
